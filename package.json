@@ -5,6 +5,9 @@
   "repository": "git@github.com:yuzu-sandbox/react-split-sample.git",
   "author": "yuzu <s.yuzu441@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "debug:build": "webpack && http-server public/"
+  },
   "dependencies": {
     "react": "^16.8.3",
     "react-dom": "^16.8.3"
